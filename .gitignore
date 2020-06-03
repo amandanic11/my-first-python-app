@@ -1,3 +1,4 @@
 .DS_Store
 
 .env
+# indicates to ignore the .env file when uploading to GitHub

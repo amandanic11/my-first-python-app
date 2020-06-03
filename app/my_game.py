@@ -19,8 +19,10 @@ if __name__ == "__main__":
     print("-------------------")
     print("PLEASE SELECT ONE OF THE FOLLOWING OPTIONS:", OPTIONS)
 
+    user_choice = input("Please input rock, paper, or scissors: ")
+
     print("-------------------")
-    user_choice = "rock" # TODO: accept user input
+    print(user_choice) # TODO: accept user input
     print(f"YOU CHOSE: '{user_choice}'")
 
     computer_choice = random.choice(OPTIONS)
